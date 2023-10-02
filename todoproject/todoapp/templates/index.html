@@ -1,9 +1,7 @@
 {% extends "base.html" %}
 {% block content %}
 <!--index.html-->
-{% if object_list %}
-<h3>All my lists</h3>
-{% endif %}
+
 <ul>
     {% for todolist in object_list %}
     <li>
